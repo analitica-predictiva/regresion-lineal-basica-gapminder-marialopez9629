@@ -59,7 +59,7 @@ def pregunta_02():
     print(corre)
 
     # Imprima la media de la columna `life` con 4 decimales.
-    print(df['fertility'].mean().round(4))
+    print(df['life'].mean().round(4))
 
     # Imprima el tipo de dato de la columna `fertility`.
     print(type(df.fertility))
